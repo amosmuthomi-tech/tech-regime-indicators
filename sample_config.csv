@@ -1,0 +1,9 @@
+series_key,series_id,is_enabled,source,start_date,target_frequency,unit,agg_rule,destination_sheet_name,destination_sheet
+ip_semi_electronics,IPG3344S (yoy),Y,FRED,2000-01-01,m,pc1: YoY,eom,Hardware - Raw & Derived,<your Google Sheet URL>
+ppi_semi_mfg,PCU334413334413 (yoy),Y,FRED,2000-01-01,m,pc1: YoY,eom,Hardware - Raw & Derived,<your Google Sheet URL>
+ppi_storage_mfg,PCU334112334112 (yoy),Y,FRED,2000-01-01,m,pc1: YoY,eom,Hardware - Raw & Derived,<your Google Sheet URL>
+mfg_tech_orders,A34SNO (yoy),Y,FRED,2000-01-01,m,pc1: YoY,eom,Hardware - Raw & Derived,<your Google Sheet URL>
+mfg_tech_inventories,A34STI (yoy),Y,FRED,2000-01-01,m,pc1: YoY,eom,Hardware - Raw & Derived,<your Google Sheet URL>
+mfg_tech_shipments,A34SVS (yoy),Y,FRED,2000-01-01,m,pc1: YoY,eom,Hardware - Raw & Derived,<your Google Sheet URL>
+mfg_tech_backlog_ratio,A34SUS,Y,FRED,2000-01-01,m,lin: Levels,eom,Hardware - Raw & Derived,<your Google Sheet URL>
+calc_tech_burn_ratio,YoY(A34SNO) − YoY(A34STI),N,FRED,2000-01-01,m,N/A (calculation only),eom,Hardware - Raw & Derived,<your Google Sheet URL>
